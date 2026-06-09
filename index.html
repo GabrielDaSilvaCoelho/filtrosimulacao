@@ -87,6 +87,30 @@
       </div>
     </div>
 
+    <div class="filter-group">
+      <label>TURNO</label>
+      <select id="f-turno">
+        <option value="">Todos</option>
+        <option value="1">Turno 1 · 06:30 – 14:29</option>
+        <option value="2">Turno 2 · 14:30 – 22:29</option>
+        <option value="3">Turno 3 · 22:30 – 06:29</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label>HORA DA FABRICAÇÃO</label>
+      <div class="date-range">
+        <div class="date-sub">
+          <span class="date-lbl">De:</span>
+          <input type="datetime-local" id="f-hora-de"/>
+        </div>
+        <div class="date-sub">
+          <span class="date-lbl">Até:</span>
+          <input type="datetime-local" id="f-hora-ate"/>
+        </div>
+      </div>
+    </div>
+
     <div class="sidebar-actions">
       <button class="btn-apply" onclick="applyFilters()">Aplicar Filtros</button>
       <button class="btn-clear" onclick="clearFilters()">Limpar</button>
