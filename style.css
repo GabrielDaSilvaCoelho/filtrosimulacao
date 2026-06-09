@@ -397,7 +397,7 @@ tbody td {
 .badge {
   display: inline-flex;
   align-items: center;
-  font-size: 1px;
+  font-size: 12px;
   font-weight: 600;
   padding: 4px 12px;
   border-radius: 4px;
